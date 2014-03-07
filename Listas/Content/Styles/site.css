@@ -1,0 +1,19 @@
+﻿body { margin-top: 60px; }
+
+.usuario-container { float: left; display: inline-block; width: 300px; margin: 5px; padding: 10px; border: 1px solid #ccc;  }
+.usuario-container:hover { background-color: #eee; }
+
+a.aspNetDisabled { display: none; }
+
+.grid-pager { margin: 2px; padding: 2px; }
+    .grid-pager td span, .grid-pager td a { display: inline-block; padding: 5px 10px; border: 1px solid #eee; text-decoration: none; }
+    .grid-pager td a:hover { background-color: #eee; }
+
+th.asc { background: url('/Content/Images/up-arrow.png') no-repeat center right #eee; }
+th.desc { background: url('/Content/Images/down-arrow.png') no-repeat center right #ccc;  }
+
+td.asc { background-color: #eee; }
+td.desc { background-color: #ccc; }
+
+ul.operaciones-list { list-style: none; margin: 0; padding: 0; }
+    ul.operaciones-list li { padding: 5px; display: inline-block; }
